@@ -1,0 +1,23 @@
+{
+  "name": "super-gulp",
+  "version": "1.0.0",
+  "description": "Learn Gulp by building an awesome development environment",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crazybirdz/super-gulp.git"
+  },
+  "author": "Crazybirdz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crazybirdz/super-gulp/issues"
+  },
+  "homepage": "https://github.com/crazybirdz/super-gulp#readme",
+  "scripts": {
+    "dev": "gulp dev"
+  }
+}
