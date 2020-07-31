@@ -4,7 +4,7 @@ Learn Gulp by building an awesome development environment
 
 - [x] Scaffolding
 - [x] npm setting
-- [ ] Pug compilation
+- [x] Pug compilation
 - [ ] Webserver & Watching files
 - [ ] Image optimization
 - [ ] SCSS compilation
