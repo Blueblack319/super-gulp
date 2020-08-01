@@ -8,5 +8,5 @@ Learn Gulp by building an awesome development environment
 - [x] Webserver & Watching files
 - [x] Image optimization
 - [x] SCSS compilation
-- [ ] Babel support
-- [ ] Deploying
+- [x] Babel support
+- [x] Deploying
