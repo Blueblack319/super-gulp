@@ -7,8 +7,10 @@ import ws from "gulp-webserver";
 import gImage from "gulp-image";
 import sass from "gulp-sass";
 sass.compiler = require("node-sass");
+import autoprefixer from "gulp-autoprefixer";
 import bro from "gulp-bro";
 import babelify from "babelify";
+import csso from "gulp-csso";
 
 const routes = {
   pug: {
@@ -51,6 +53,8 @@ const scss = () =>
   gulp
     .src(routes.scss.src)
     .pipe(sass.sync().on("error", sass.logError))
+    .pipe(autoprefixer({ overrideBrowserslist: "last 2 versions" }))
+    .pipe(csso())
     .pipe(gulp.dest(routes.scss.dest));
 
 const js = () =>
