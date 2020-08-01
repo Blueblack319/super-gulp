@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Learn Gulp by building an awesome development environment",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "babelify": "^10.0.0",
+    "uglifyify": "^5.0.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/crazybirdz/super-gulp.git"
@@ -23,6 +26,7 @@
     "@babel/register": "^7.10.5",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
+    "gulp-bro": "^2.0.0",
     "gulp-cli": "^2.3.0",
     "gulp-image": "^6.2.1",
     "gulp-pug": "^4.0.1",
