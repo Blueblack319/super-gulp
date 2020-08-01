@@ -74,8 +74,7 @@ const js = () =>
 const image = () =>
   gulp.src(routes.image.src).pipe(gImage()).pipe(gulp.dest(routes.image.dest));
 
-const gh = () =>
-  gulp.src("build/**/*").pipe(ghPages({ remoteUrl: "gulp-page" }));
+const gh = () => gulp.src("build/**/*").pipe(ghPages());
 
 const prepare = gulp.series([clean]);
 
