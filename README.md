@@ -6,7 +6,7 @@ Learn Gulp by building an awesome development environment
 - [x] npm setting
 - [x] Pug compilation
 - [x] Webserver & Watching files
-- [ ] Image optimization
-- [ ] SCSS compilation
+- [x] Image optimization
+- [x] SCSS compilation
 - [ ] Babel support
 - [ ] Deploying
